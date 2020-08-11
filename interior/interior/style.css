@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    height: 5710px;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+.hot-deal {
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    position: relative;
+}
+
+.slider-text,
+.deal-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.slider-h2,
+.deal-h2 {
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.slider-content,
+.deal-context {
+    width: 458px;
+    color: #6c6c6c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button,
+.deal-button {
+    width: 212px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    text-align: center;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-site {
+    list-style-type: none;
+    float: left;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.product {
+    list-style-type: none;
+}
+
+.products {
+    width: 1170px;
+    margin-left: 219px 98px 120px;
+}
+
+.menu-product {
+    margin-bottom: 50px;
+    margin-top: 120px;
+}
+
+.menu-explore {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    list-style-type: none;
+    float: left;
+    border-bottom: 1px solid #6c6c6c;
+    padding-right: 31px;
+}
+
+.explore-active {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+
+.all {
+    list-style-type: none;
+    text-align: right;
+    color: #212121;
+    letter-spacing: 3.6px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 138px;
+    padding-right: 118px;
+    text-decoration: none;
+}
+
+.link-product {
+    width: 270px;
+    height: 270px;
+    float: left;
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.promo {
+    width: 1366px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.padding-promo {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.promo1 {
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img1.jpg);
+    float: left;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo2 {
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img.jpg);
+    float: right;
+    position: relative;
+}
+
+.promo1-title,
+.promo2-title {
+    color: #1e88e5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 228px;
+    left: 50px;
+}
+
+.promo1-h2,
+.promo2-h2 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    top: 259px;
+    left: 50px;
+}
+
+.promo1-content,
+.promo2-content {
+    width: 374px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+    position: absolute;
+    top: 311px;
+    left: 50px;
+    margin-bottom: 20px;
+}
+
+.promo1-button,
+.promo2-button {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.04px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    text-align: center;
+    width: 212px;
+    height: 46px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 381px;
+    left: 50px;
+}
+
+
+/*Trending*/
+
+.menu-trending,
+.trending-product {
+    list-style-type: none;
+}
+
+.menu-trending {
+    margin-bottom: 64px;
+}
+
+.trending-product {
+    margin-bottom: 120px;
+}
+
+.menu-trending-product {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+    margin-top: 119px;
+}
+
+.trending-product-button {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 137px;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.link-str-product {
+    width: 370px;
+    height: 370px;
+    float: left;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+/*Hot-deal*/
+
+.title {
+    position: absolute;
+    top: 287px;
+}
+
+.deal-h2 {
+    position: absolute;
+    top: 322px;
+}
+
+.deal-context {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 399px;
+}
+
+.deal-button {
+    position: absolute;
+    top: 469px;
+}
+
+.deal-pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+
+/*exclusive_2*/
+
+.exclusive_2 {
+    
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.left-block {
+    width: 570px;
+    height: 570px;
+    float: left;
+    background-image: url(img/product-1-lg.jpg);
+    position: relative;
+    
+}
+
+.right-block {
+    list-style-type: none;
+}
+
+.left-title {
+    color: #1e88e5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 187px;
+}
+
+.left-h2 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    top: 216px;
+}
+
+.left-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 269px;
+    width: 332px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+}
+
+.left-button {
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: #212121;
+    width: 212px;
+    height: 46px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.04px;
+    position: absolute;
+    top: 339px;
+}
+
+.exclus-right {
+    width: 270px;
+    height: 270px;
+    float: right;
+    
+    
+    margin: 15px 15px;
+}
+
+
+/*mobil-app*/
+
+.mobil-app {
+    
+height: 516px;
+    margin: 0 auto;
+    background-image: url(img/back-img.jpg);
+    position: relative;
+}
+
+.mobil-title {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 125px;
+}
+
+.mobil-h2 {
+    width: 500px;
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 160px;
+}
+
+.mobil-context {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    position: absolute;
+    top: 302px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mobil-button1 {
+    width: 135px;
+    height: 40px;
+    position: absolute;
+    left: 98px;
+    bottom: 120px;
+}
+
+.mobil-button2 {
+    width: 135px;
+    height: 40px;
+    position: absolute;
+    left: 243px;
+    bottom: 120px;
+}
+/* footer*/
+.footer {
+                    min-height: 384px;
+                    background-color: #f7f7f7;
+                    margin: -122px auto 0;
+                    padding-left: 97px;
+                    position: relative;
+                }
+                
+                .context {
+                    margin-top: 120px;
+                    float: left;
+                }
+                
+                .left-info {
+                    float: left;
+                }
+                
+                .right-info {
+                    float: right;
+                    margin-left: 103px;
+                }
+                
+                .contacts p {
+                    width: 221px;
+                    height: 102px;
+                }
+                
+                .info,
+                .suscribe {
+                    margin-left: 78px;
+                }
+                
+                .footer h3 {
+                    color: #6c6c6c;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                }
+                
+                .footer p {
+                    color: #212121;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 22px;
+                }
+                
+                .left-info,
+                .right-info {
+                    color: #212121;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                                    
+                }
+.link-info{color: #212121;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                    text-decoration: none;}
+                .footer .input-form {
+                    width: 370px;
+                    height: 48px;
+                    border: 1px solid #d9dee1;
+                    background-color: #ffffff;
+                    color: #6c6c6c;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 22px;
+                    position: relative;
+                }
+                
+                .input .input-form {
+                    position: relative;
+                }
+                
+                .input .input-icon {
+                    position: absolute;
+                    right: 122px;
+                    bottom: 130px;
+                }
+                
+                .suscribe p {
+                    width: 363px;
+                }
+                
+                .footer-down p {
+                    color: #6c6c6c;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                }
+                
+                .down-list1 {
+                    float: left;
+                    position: absolute;
+                    bottom: 39px;
+                    left: 98px;
+                }
+                
+                .down-list2 {
+                    float: right;
+                    position: absolute;
+                    bottom: 39px;
+                    right: 98px;
+                }
+                
+                .footer .social-links {
+                    position: absolute;
+                    bottom: 30px;
+                    left: 618px;
+                }

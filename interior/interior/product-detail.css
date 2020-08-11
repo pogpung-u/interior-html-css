@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    min-width: 600px;
+    margin: 0 auto;
+
+}
+
+.header {
+    min-height: 119px;
+    background-color: #ffffff;
+    padding-top: 3.5%;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding-top: 3.5%;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.link-menu {
+    color: #8c8c8c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.link-menu-active {
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.link-menu:hover {
+    color: #212121;
+}
+
+.contact-us-h2 {
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    position: absolute;
+    bottom: 56px;
+    left: 101;
+}
+
+.main {
+    min-height: 563px;
+    margin: 56px 0px 122px;
+    position: relative;
+}
+
+.menu-products-list {
+    list-style-type: none;
+    
+    
+}
+
+.list-menu-products {
+    float: left;
+    
+}
+
+.link-menu-products {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;    
+}
+.link-menu-products-active{
+    color: #212121;
+}
+.menu-products{
+    background-color: #f4f4f4;
+    height: 70px;
+}
+.menu-products-list{
+    width: 647px;
+    margin: auto auto;
+    line-height: 70px;
+}
+.menu-explore {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    list-style-type: none;
+    float: left;
+    
+    padding-right: 31px;
+}
+
+.explore-active {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.all {
+    list-style-type: none;
+    text-align: right;
+    color: #212121;
+    letter-spacing: 3.6px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 138px;
+    padding-right: 118px;
+    text-decoration: none;
+}
+.product {
+    list-style-type: none;
+    float: left;
+}
+
+.products {
+    width: 1170px;
+    margin-left: 219px 98px 120px;
+}
+.footer {
+    min-height: 384px;
+    background-color: #f7f7f7;
+    margin: 0 auto 0;
+    padding-left: 97px;
+    position: relative;
+}
+
+.context {
+    margin-top: 120px;
+    float: left;
+}
+
+.left-info {
+    float: left;
+}
+
+.right-info {
+    float: right;
+    margin-left: 103px;
+}
+
+.contacts p {
+    width: 221px;
+    height: 102px;
+    
+}
+
+.info,
+.suscribe {
+    margin-left: 78px;
+}
+.context-p{
+    width: 510px;
+    color: #212121;
+font-family: Gotham;
+font-size: 16px;
+font-weight: 300;
+line-height: 24.01px;
+    text-align: left;
+    overflow: hidden;
+    
+    
+}
+.title2{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 48.02px;
+text-transform: uppercase;
+    color: #e53935;
+    text-align: center;
+    overflow: hidden;
+    
+    
+}
+.context-product{
+    width: 510px;
+    position: absolute;
+    top: 119px;
+    right: 132px;
+}
+.title{overflow: hidden;
+    
+   
+    color: #212121;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+    text-align: center;
+}
+.main-img-product{
+    position: absolute;
+    top: 72px;
+    left: 98px;
+}
+.img-product{
+   width: 570px;
+height: 651px;
+    
+    position: relative;
+}
+.version-product1,
+.version-product2,
+.version-product3{
+    width: 70px;
+height: 70px;    
+    float: left;
+    
+}
+.version-product3{
+    position: absolute;
+   left: 310px;
+    bottom: 0px;
+}
+.version-product2{
+    position: absolute;
+   left: 150px;
+    bottom: 0px;
+}
+.bottom{
+    width: 510px;
+height: 71px;
+box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+border-radius: 35px;
+background-color: #f44336;
+    color: #ffffff;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 24.01px;
+text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    text-align: center;
+    margin-bottom: 49px;
+    overflow: hidden;
+    
+    margin-left: 30px;
+}
+
+.version-product1{
+    position: absolute;
+   left: 230px;
+    bottom: 0px;
+}
+.main-img{
+    width: 570px;
+height: 570px;
+}
+.footer h3 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.footer p {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.left-info,
+.right-info {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link-info {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer .input-form {
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    position: relative;
+}
+
+.input .input-form {
+    position: relative;
+}
+
+.input .input-icon {
+    position: absolute;
+    right: 122px;
+    bottom: 130px;
+}
+
+.suscribe p {
+    width: 363px;
+}
+
+.footer-down p {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.down-list1 {
+    float: left;
+    position: absolute;
+    bottom: 39px;
+    left: 98px;
+}
+
+.down-list2 {
+    float: right;
+    position: absolute;
+    bottom: 39px;
+    right: 98px;
+}
+
+.footer .social-links {
+    position: absolute;
+    bottom: 30px;
+    left: 618px;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;

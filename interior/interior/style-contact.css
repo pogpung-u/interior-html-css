@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    min-width: 600px;
+    margin: 0 auto;
+    min-height: 1307px;
+}
+
+.header {
+    min-height: 360px;
+    background-color: #f5f5f5;
+    padding-top: 3.5%;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding-top: 3.5%;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.link-menu {
+    color: #8c8c8c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.link-menu-active {
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.link-menu:hover {
+    color: #212121;
+}
+
+.contact-us-h2 {
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    position: absolute;
+    bottom: 56px;
+    left: 101;
+}
+
+.main {
+    min-height: 563px;
+    margin: 56px 83px 122px;
+}
+
+.contact-us {
+    width: 370px;
+    height: 370px;
+    outline: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contact-content {
+    text-align: center;
+    margin: 48px 48px 50px 63px;
+}
+
+.h3 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+}
+
+.place {
+    width: 38px;
+    height: 48px;
+}
+
+.phone,
+.email,
+.adress {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.phone-text,
+.email-text {
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.footer {
+    min-height: 384px;
+    background-color: #f7f7f7;
+    margin: -122px auto 0;
+    padding-left: 97px;
+    position: relative;
+}
+
+.context {
+    margin-top: 120px;
+    float: left;
+}
+
+.left-info {
+    float: left;
+}
+
+.right-info {
+    float: right;
+    margin-left: 103px;
+}
+
+.contacts p {
+    width: 221px;
+    height: 102px;
+}
+
+.info,
+.suscribe {
+    margin-left: 78px;
+}
+
+.footer h3 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.footer p {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.left-info,
+.right-info {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link-info {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer .input-form {
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    position: relative;
+}
+
+.input .input-form {
+    position: relative;
+}
+
+.input .input-icon {
+    position: absolute;
+    right: 122px;
+    bottom: 130px;
+}
+
+.suscribe p {
+    width: 363px;
+}
+
+.footer-down p {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.down-list1 {
+    float: left;
+    position: absolute;
+    bottom: 39px;
+    left: 98px;
+}
+
+.down-list2 {
+    float: right;
+    position: absolute;
+    bottom: 39px;
+    right: 98px;
+}
+
+.footer .social-links {
+    position: absolute;
+    bottom: 30px;
+    left: 618px;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;}
